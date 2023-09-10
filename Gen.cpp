@@ -16,7 +16,7 @@ inline string Generate_User() {
     return str;
 }
 signed main() {
-    freopen("ACT_1.in", "w", stdout);
+    freopen("ATS_1.in", "w", stdout);
     srand(time(NULL));
     n = 1000000;
     cout << n << endl;

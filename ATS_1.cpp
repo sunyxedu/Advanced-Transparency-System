@@ -243,7 +243,7 @@ inline void Membership_Proof_Next(int Id) {
 				}
 			}
 			else {
-				puts("in");
+				// puts("in");
 				for (int j = 1; j <= id_bel(id[Now ^ 1], Now ^ 1).second; ++ j) {
 					if (j != p.second) elem.push_back(bel[Now ^ 1][i].ele[j]);
 				}
@@ -405,7 +405,7 @@ inline bool Auditor_Extension_Proof_Next(int ver1, int ver2, string st, string e
 	}
 	Value = Hash(st + tmp_Value);
 	if (Value != Total_Version_Next(ver1)) {
-		puts("in");
+		// puts("in");
 		return false;
 	}
 
@@ -463,8 +463,8 @@ inline void Debug() {
 int n;
 signed main() {
 	ios::sync_with_stdio(false);
-	freopen("ACT_1.in", "r", stdin);
-	freopen("ACT_1.out", "w", stdout);
+	freopen("ATS_1.in", "r", stdin);
+	freopen("ATS_1.out", "w", stdout);
 	
 	cin >> n;
 	for (int i = 1; i <= n; ++ i) {
